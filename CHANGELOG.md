@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - OpenVPN: Opt out of platform info in peer info. [#409](https://github.com/passepartoutvpn/tunnelkit/pull/409)
 
+## 6.3.3 (2025-09-27)
+
+### Changed
+
+- Wireguard support removed.
+
 ## 6.3.2 (2024-01-05)
 
 ### Fixed

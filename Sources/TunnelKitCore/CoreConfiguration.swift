@@ -40,7 +40,7 @@ import Foundation
 public class CoreConfiguration {
 
     /// Unique identifier of the library.
-    public static let identifier = "com.algoritmico.TunnelKit"
+    public static let identifier = "com.antalyasoftware.TunnelKit"
 
     /// Library version as seen in `Info.plist`.
     public static let version: String = {

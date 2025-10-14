@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "openssl-apple",
+      "identity" : "openssl-x",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kemalturk/openssl-apple",
+      "location" : "https://github.com/kemalturk/openssl-x",
       "state" : {
-        "revision" : "1ead4fd07e9e8dc360df6f09abbdf51a8997b166",
-        "version" : "3.5.501"
+        "revision" : "466da4a1f4b240ccac7acc973cc340073986e732",
+        "version" : "3.5.502"
       }
     },
     {

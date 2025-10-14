@@ -31,7 +31,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "1.9.0"),
-        .package(url: "https://github.com/kemalturk/openssl-apple", from: "3.5.4")
+        .package(url: "https://github.com/kemalturk/openssl-x", from: "3.5.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -115,7 +115,7 @@ let package = Package(
             dependencies: [
                 "CTunnelKitCore",
                 "CTunnelKitOpenVPNCore",
-                "openssl-apple"
+                "openssl-x"
             ]),
         .target(
             name: "__TunnelKitUtils",

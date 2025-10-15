@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kemalturk/openssl-x",
       "state" : {
-        "revision" : "466da4a1f4b240ccac7acc973cc340073986e732",
-        "version" : "3.5.502"
+        "revision" : "523f6717544b48d02505741aab22c67cbbf6d854",
+        "version" : "3.5.503"
       }
     },
     {

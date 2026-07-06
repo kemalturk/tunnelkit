@@ -70,6 +70,7 @@ public protocol VPN {
         _ tunnelBundleIdentifier: String,
         configuration: Configuration,
         extra: Extra?,
+        options: [String: NSObject]?,
         after: DispatchTimeInterval
     ) async throws
 

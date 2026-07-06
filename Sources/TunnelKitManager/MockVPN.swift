@@ -79,6 +79,7 @@ public class MockVPN: VPN {
         _ tunnelBundleIdentifier: String,
         configuration: NetworkExtensionConfiguration,
         extra: NetworkExtensionExtra?,
+        options: [String: NSObject]? = nil,
         after: DispatchTimeInterval
     ) async throws {
         self.tunnelBundleIdentifier = tunnelBundleIdentifier

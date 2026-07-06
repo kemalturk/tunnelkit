@@ -79,6 +79,7 @@ public class NetworkExtensionVPN: VPN {
         _ tunnelBundleIdentifier: String,
         configuration: NetworkExtensionConfiguration,
         extra: NetworkExtensionExtra?,
+        options: [String: NSObject]? = nil,
         after: DispatchTimeInterval
     ) async throws {
         do {
@@ -91,7 +92,8 @@ public class NetworkExtensionVPN: VPN {
                 manager.connection.stopVPNTunnel()
                 try await Task.sleep(nanoseconds: after.nanoseconds)
             }
-            try manager.connection.startVPNTunnel()
+            
+            try manager.connection.startVPNTunnel(options: options)
         } catch {
             notifyInstallError(error)
             throw error
